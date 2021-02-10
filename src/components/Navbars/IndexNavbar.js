@@ -72,7 +72,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold"
-                  href="/landing"
+                  href="/cultivate"
                   target="_blank"
                 >
                  Cultivation
@@ -82,7 +82,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-gray-600 text-green-800 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold"
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index-navbar"
+                  href="/diseases"
                   target="_blank"
                 >
                   Diseases

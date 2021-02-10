@@ -59,7 +59,7 @@ export default function Index() {
                         <i className="fas fa-tractor fa-2x"></i>
                       </div>
                       <h6 className="text-3xl mb-1 font-semibold"><a
-                href="/landing"
+                href="/cultivate"
                 target="_blank"
                 className="font-bold text-gray-800 hover:text-black ease-linear transition-all duration-150"
               >Cultivation</a></h6>
@@ -78,7 +78,7 @@ export default function Index() {
                       </div>
                       <h6 className="text-3xl mb-1 font-semibold">
                       <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
+                href="diseases"
                 target="_blank"
                 className="font-bold text-gray-800 hover:text-black ease-linear transition-all duration-150"
               >Crop Diseases</a>
@@ -171,7 +171,7 @@ export default function Index() {
                 you.
               </p>
               <a
-                href="/landing"
+                href="/cultivate"
                 target="_blank"
                 className="font-semibold text-green-800 hover:text-green-600 ease-linear transition-all duration-150"
               >

@@ -45,7 +45,7 @@ export default function Cultivate() {
 
         <section className="relative py-20 bg-green-200">
                 <div className="flex flex-nowrap ml-20">
-                <div className="w-full md:w-6/12 px-4">
+                <div className="w-full md:w-6/12 px-4 ml-3">
                   <div className="relative flex flex-row mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-green-900 p-8 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-lg rounded-full bg-green-200">
@@ -78,6 +78,19 @@ export default function Cultivate() {
                   <div className="relative flex flex-row mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-green-900 p-8 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-lg rounded-full bg-green-200">
+                        <i className="fas fa-seedling fa-3x "></i>
+                      </div>
+                      <h4 className="text-2xl mb-1 ml-3 font-semibold ">
+                        Beans
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="w-full md:w-6/12 px-4">
+                  <div className="relative flex flex-row mt-4">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-green-900 p-8 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-lg rounded-full bg-green-200">
                         <i className="fas fa-lemon fa-3x "></i>
                       </div>
                       <h3 className="text-2xl mb-1 ml-3 font-semibold">
@@ -100,7 +113,7 @@ export default function Cultivate() {
                   </div>
                 </div>
 
-                <div className="w-full md:w-6/12 px-4">
+                <div className="w-full md:w-6/12 pl-4">
                   <div className="relative flex flex-row mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-green-900 p-8 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-lg rounded-full bg-green-200">

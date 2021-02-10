@@ -12,10 +12,11 @@ import Auth from "layouts/Auth.js";
 
 // views without layouts
 
-import Landing from "views/Cultivate.js";
+// import Landing from "views/Cultivate.js";
 import Index from "views/Index.js";
 import Mobile_app from "views/MobileApp.js";
-import Cultivate from "views/Cultivate";
+import Cultivate from "views/Cultivate.js";
+import Diseases from "views/Diseases";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -26,6 +27,7 @@ ReactDOM.render(
       {/* add routes without layouts */}
       <Route path="/cultivate" exact component={Cultivate} />
       <Route path="/mobileapp" exact component={Mobile_app} />
+      <Route path="/diseases" exact component={Diseases} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
