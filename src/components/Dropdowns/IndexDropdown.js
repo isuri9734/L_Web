@@ -76,13 +76,15 @@ const IndexDropdown = () => {
           Auth Layout
         </span>
         <Link
-          to="/auth/login"
+        to ="/sign_in"
+          // to="/auth/login"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
         >
           Login
         </Link>
         <Link
-          to="/auth/register"
+        to ="/sign_up"
+          // to="/auth/register"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
         >
           Register
@@ -99,10 +101,10 @@ const IndexDropdown = () => {
           to="/landing"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
         >
-          Lading
+          Landing
         </Link>
         <Link
-          to="/Mobile_app"
+          to="/add_details"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
         >
           Profile

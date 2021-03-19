@@ -29,7 +29,7 @@ export default function Footer_white() {
                   className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <i className="fas fa-leaf text-2xl"></i>
+                  <a href="/about"><i className="fas fa-leaf text-2xl"></i></a>
                 </button>
                 <button
                   className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -41,7 +41,7 @@ export default function Footer_white() {
                   className="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <i className="fas fa-address-card text-2xl"></i>
+                  <a href="/about"><i className="fas fa-address-card text-2xl"></i></a>
                 </button>
               </div>
             </div>

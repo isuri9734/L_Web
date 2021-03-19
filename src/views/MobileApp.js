@@ -17,11 +17,11 @@ export default function Mobile_app() {
         </div>
 
           <div className="absolute w-full h-full text-green-900 pt-32 pb-16 py-2 text-center w-40 font-bold text-xl" >
+            <p>What is Leafi-app ?</p>
+            <p>How we can use it?</p>
+            <p>Why we want to use Leafi?</p>
             <p>Let's see how the app works!</p>
-            <p>This will give you a basic idea about Leafi.</p>
-            <p>It is very useful for farmers,cultivators and officers.</p>
-            <p>Let's see how the app works!</p>
-            <p>This will give you a basic idea about Leafi.</p>
+            <p>This video will give you a basic idea about Leafi and how to use.</p>
         
             {/* <span
               id="blackOverlay"

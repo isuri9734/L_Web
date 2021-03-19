@@ -1,9 +1,9 @@
 {
-  "name": "notus-react",
+  "name": "leafi",
   "version": "1.0.0",
-  "description": "Notus React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
-  "repository": "https://github.com/creativetimofficial/notus-react",
-  "license": "MIT",
+  "description": "Leafi is a agriculture related web application .",
+  "repository": "",
+  "license": "Isuri Mayadunne",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.14.0",
     "@popperjs/core": "2.5.1",

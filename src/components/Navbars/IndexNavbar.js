@@ -33,21 +33,11 @@ export default function Navbar(props) {
             }
             id="example-navbar-warning"
           >
-            {/* <ul className="flex flex-col lg:flex-row list-none mr-auto">
-              <li className="flex items-center">
-                <a
-                  className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index-navbar"
-                >
-                  <i className="text-gray-500 far fa-file-alt text-lg leading-lg mr-2" />{" "}
-                  Docs
-                </a>
-              </li>
-            </ul> */}
+            
              <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <IndexDropdown />
-              </li>
+              </li> */}
               <li className="flex items-center">
                 <a
                   className="hover:text-gray-600 text-green-800 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold"
@@ -102,7 +92,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-gray-600 text-green-800 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold"
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index-navbar"
+                  href="/about"
                   target="_blank"
                 >
                   About Us
